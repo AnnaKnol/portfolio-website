@@ -5,7 +5,7 @@
 }
 
 body {
-  margin: 100px auto 0;
+  margin: 100px auto;
 }
 
 h1,
@@ -93,7 +93,7 @@ p {
 }
 
 #contact {
-  margin: 70px auto 100px;
+  margin: 70px auto 0;
 }
 
 @media (max-width: 576px) {
@@ -101,7 +101,20 @@ p {
     font-size: 48px;
     line-height: 1.5;
   }
-  h2 {
+  h2,
+  h4 {
     font-size: 32px;
+  }
+  h4,
+  p {
+    text-align: center;
+  }
+  .app-launch {
+    display: block;
+    text-align: center;
+    width: 100%;
+  }
+  .app-launch-button {
+    margin: 0 20px;
   }
 }
