@@ -43,6 +43,10 @@ p {
   border-radius: 4px;
 }
 
+.app-launch:hover {
+  color: white;
+}
+
 .info-paragraph {
   margin: 30px 10px;
 }
@@ -63,6 +67,10 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   text-transform: capitalize;
+}
+
+.navigation-links a:hover {
+  color: white;
 }
 
 .contact-link {
@@ -112,9 +120,6 @@ p {
   .app-launch {
     display: block;
     text-align: center;
-    width: 100%;
-  }
-  .app-launch-button {
     margin: 0 20px;
   }
 }
