@@ -81,13 +81,27 @@ p {
 }
 
 .email-link {
-  display: flex;
-  justify-content: center;
   color: var(--primary-color);
+  display: flex;
   font-size: 28px;
+  justify-content: center;
   text-decoration: none;
 }
 
 .email-link:hover {
   text-decoration: underline;
+}
+
+#contact {
+  margin: 70px auto 100px;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 48px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 32px;
+  }
 }
